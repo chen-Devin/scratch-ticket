@@ -1,0 +1,4 @@
+@function px2Rem($sn){
+  //sass允许自定义函数
+  @return ($sn/30)*1rem;
+}
